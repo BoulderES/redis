@@ -3,11 +3,11 @@ global:
 
 master:
   persistence:
-    size: 10Gi
+    size: 8Gi
 
 replica:
   persistence:
-    size: 10Gi
+    size: 8Gi
 
 auth:
   enabled: false
