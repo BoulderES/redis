@@ -1,2 +1,4 @@
 global:
   storageClass: "qnap-nfs"
+auth:
+  enabled: false
