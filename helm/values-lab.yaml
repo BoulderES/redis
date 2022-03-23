@@ -1,4 +1,13 @@
 global:
   storageClass: "qnap-nfs"
+
+master:
+  persistence:
+    size: 10Gi
+
+replica:
+  persistence:
+    size: 10Gi
+
 auth:
   enabled: false
